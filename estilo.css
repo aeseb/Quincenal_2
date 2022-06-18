@@ -1,0 +1,43 @@
+/*
+Mi intención es que la lista se muestre en dos columnas
+usando lo siguiente:
+
+#lista {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+No funciona como espero y comprendo que tengo 
+hacer alguna modificacion o agregar algo pero 
+se me escapa aún.
+
+*/
+
+body {
+    background-color: #caf8f8;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+#alternaciones {
+    margin-bottom: 5px;
+}
+
+#lista {
+    display: inline;
+}
+
+#generar_check {
+    color: #f00;
+    display: inline;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+#limpiar {
+    color: #0000ff;
+    display: inline;
+}
